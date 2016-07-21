@@ -1,6 +1,6 @@
-// stdafx.h : ��׼ϵͳ�����ļ��İ����ļ���
-// ���Ǿ���ʹ�õ��������ĵ�
-// �ض�����Ŀ�İ����ļ�
+// stdafx.h : 标准系统包含文件的包含文件，
+// 或是经常使用但不常更改的
+// 特定于项目的包含文件
 //
 
 #pragma once
@@ -11,11 +11,12 @@
 #include <tchar.h>
 
 
-#define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS      // ĳЩ CString ���캯��������ʽ��
+#define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS      // 某些 CString 构造函数将是显式的
 
 #include <atlbase.h>
 #include <atlstr.h>
 
 #include <comutil.h>
 
-// TODO: �ڴ˴����ó�����Ҫ������ͷ�ļ�
+// TODO: 在此处引用程序需要的其他头文件
+#pragma comment(lib, "comsuppw.lib")
